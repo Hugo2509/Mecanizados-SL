@@ -1,0 +1,181 @@
+╔══════════════════════════════════════════════════════════════╗
+║         GUÍA VISUAL: NETLIFY (LA MÁS FÁCIL)                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+PASO 1: REGISTRO (30 segundos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre: https://app.netlify.com/signup
+
+2. Opciones de registro:
+   ┌─────────────────────────────────────────────────────────┐
+   │                                                          │
+   │  [🔵 Sign up with Email]                                │
+   │                                                          │
+   │  [⚫ Sign up with GitHub]  ← Rápido si tienes cuenta   │
+   │                                                          │
+   │  [🔴 Sign up with GitLab]                               │
+   │                                                          │
+   │  [🟣 Sign up with Bitbucket]                            │
+   │                                                          │
+   │  [🟠 Sign up with Google]  ← Rápido si tienes Gmail    │
+   │                                                          │
+   └─────────────────────────────────────────────────────────┘
+
+3. Elige cualquiera (recomiendo Email o Google)
+
+4. Verifica tu email si usas Email
+
+
+PASO 2: DEPLOY (1 minuto)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ya en el dashboard, verás:
+   ┌─────────────────────────────────────────────────────────┐
+   │                                                          │
+   │         [Add new site ▼]                                │
+   │                                                          │
+   └─────────────────────────────────────────────────────────┘
+
+2. Click en "Add new site" → "Deploy manually"
+
+3. Verás una zona punteada:
+   ┌─────────────────────────────────────────────────────────┐
+   │                                                          │
+   │        📁 Drag and drop your site folder here           │
+   │                                                          │
+   │              Or, browse to upload                       │
+   │                                                          │
+   └─────────────────────────────────────────────────────────┘
+
+4. ARRASTRA la carpeta /app/github-pages/ completa
+
+   O haz click en "browse to upload" y selecciona:
+   ✓ index.html
+   ✓ style.css
+   ✓ script.js
+   ✓ README.md
+
+5. Verás barra de progreso:
+   [████████████████████] Uploading...
+
+6. ⏱️  Espera 30 segundos...
+
+7. ¡Aparecerá tu sitio con URL random!
+   🎉 https://random-name-123456.netlify.app
+
+
+PASO 3: PERSONALIZAR NOMBRE (Opcional, 30 segundos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En tu sitio, click en "Site settings"
+
+2. En la sección "Site information", click en "Change site name"
+
+3. Escribe: mecanizados-calero
+
+4. Save
+
+5. Nueva URL: https://mecanizados-calero.netlify.app
+
+
+PASO 4: DOMINIO PROPIO (Opcional, 5 minutos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En tu sitio, click en "Domain settings"
+
+2. Click en "Add custom domain"
+
+3. Escribe: www.mecanizadoscalero.com
+
+4. Netlify te dará instrucciones DNS:
+   ┌─────────────────────────────────────────────────────────┐
+   │ Add this DNS record:                                    │
+   │                                                          │
+   │ Type: CNAME                                             │
+   │ Name: www                                               │
+   │ Value: mecanizados-calero.netlify.app                  │
+   │                                                          │
+   └─────────────────────────────────────────────────────────┘
+
+5. Ve a tu proveedor de dominio (ej: GoDaddy, Namecheap)
+
+6. Añade el registro CNAME
+
+7. ⏱️  Espera 1-24h para propagación DNS
+
+8. ¡Listo! SSL automático en tu dominio
+
+
+ACTUALIZAR SITIO EN EL FUTURO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Opción A: Desde Dashboard
+1. Ve a tu sitio en Netlify
+2. Tab "Deploys"
+3. Arrastra carpeta de nuevo sobre "Drag and drop..."
+
+Opción B: Netlify Drop (aún más fácil)
+1. Ve a: https://app.netlify.com/drop
+2. Arrastra carpeta
+3. ¡Actualizado!
+
+
+VENTAJAS DE NETLIFY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ 100% Gratis para sitios estáticos
+✅ SSL automático (HTTPS)
+✅ CDN global (muy rápido en todo el mundo)
+✅ Backups automáticos de cada deploy
+✅ Rollback fácil (volver a versión anterior)
+✅ Formularios nativos (si quieres dejar Google Forms)
+✅ Analytics básico incluido
+✅ Sin límite de sitios
+✅ Sin necesidad de Git
+
+
+CARACTERÍSTICAS PRO (Gratis en plan hobby)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• 100 GB bandwidth/mes
+• 300 minutos de build/mes
+• Dominios ilimitados
+• SSL automático
+• Deploy previews
+• Branch deploys
+
+
+¿PROBLEMAS?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+El sitio no carga:
+→ Verifica que subiste todos los archivos (html, css, js)
+→ Espera 1 minuto y refresca
+
+Error 404:
+→ Verifica que index.html esté en la raíz
+→ Revisa "Deploy log" en la pestaña Deploys
+
+Estilos no se aplican:
+→ Limpia caché: Ctrl+F5 (Windows) o Cmd+Shift+R (Mac)
+→ Verifica que style.css se haya subido
+
+Dominio personalizado no funciona:
+→ DNS tarda hasta 24h en propagar
+→ Verifica el registro CNAME en tu proveedor
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 ¡ESO ES TODO!
+
+Con Netlify tienes:
+• Deploy en 2 minutos
+• URL profesional
+• HTTPS automático
+• Actualizaciones fáciles
+• Sin comandos complicados
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
