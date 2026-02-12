@@ -1,0 +1,75 @@
+╔════════════════════════════════════════════════════════════════╗
+║                    INICIO RÁPIDO                                ║
+║            (Lo más simple y rápido posible)                     ║
+╚════════════════════════════════════════════════════════════════╝
+
+⚡ OPCIÓN MÁS RÁPIDA (Sin Git, Sin comandos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: https://github.com/new
+   - Nombre: mecanizados-calero
+   - Public
+   - Create repository
+
+2. En la nueva página, click en "uploading an existing file"
+
+3. ARRASTRA estos archivos a la página:
+   📄 index.html
+   📄 style.css
+   📄 script.js
+   📄 README.md
+
+4. Scroll down → Click "Commit changes"
+
+5. Ve a: Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: main / (root)
+   - Save
+
+6. ⏱️  Espera 2 minutos
+
+7. 🎉 Tu sitio estará en:
+   https://TU_USUARIO.github.io/mecanizados-calero/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ CON SCRIPT AUTOMÁTICO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Crea repo en GitHub (paso 1 de arriba)
+
+2. Edita deploy-to-github.sh:
+   - Línea 10: Tu usuario de GitHub
+   - Línea 12: Tu email
+   - Línea 13: Tu nombre
+
+3. Ejecuta:
+   cd /app/github-pages
+   ./deploy-to-github.sh
+
+4. Cuando pida password, usa tu TOKEN de GitHub
+   (Créalo en: https://github.com/settings/tokens)
+
+5. Activa Pages (paso 5 de arriba)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 UBICACIÓN DE ARCHIVOS:
+   /app/github-pages/
+
+📖 DOCUMENTACIÓN COMPLETA:
+   PASOS-GITHUB.txt (paso a paso detallado)
+   README.md (guía técnica completa)
+   WORDPRESS-GUIDE.md (migración a WordPress)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 RESULTADO FINAL:
+
+Tu sitio estará disponible públicamente en:
+https://TU_USUARIO.github.io/mecanizados-calero/
+
+100% funcional, responsive, con todas las secciones y Google Forms.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
