@@ -55,7 +55,7 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
 
 ## Funcionalidades Implementadas ✅
 
-### Fecha: 12 Feb 2025
+### Fecha: 12 Feb 2025 - Versión React (Inicial)
 1. **Página Principal Completa** con:
    - Hero section con imagen CNC profesional
    - Barra de estadísticas (17+ años, 1.000m², etc.)
@@ -63,27 +63,38 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
    - Sección "La Empresa" con información corporativa
    - Sección de maquinaria (6 tipos de máquinas)
    - Sección de materiales y sectores
-   - Formulario de presupuesto (mock)
-   - Formulario de contacto (mock)
+   - Sección CTA presupuesto
+   - Sección contacto simplificada
    - Google Maps integrado
    - Footer completo con SEO
    - Botón flotante de WhatsApp
    - Navegación responsive con menú móvil
+   - **Google Forms integrado**: Todos los CTAs redirigen a formulario externo
 
 2. **Imágenes Profesionales**:
    - 7 imágenes de alta calidad de maquinaria CNC
    - Fuentes: Unsplash y Pexels
 
-3. **SEO Básico**:
-   - Meta tags preparados
-   - Estructura semántica HTML
-   - Keywords: "mecanizados CNC Barcelona", "tornos CNC", etc.
-
-4. **Diseño Industrial**:
-   - Paleta de colores: Azul oscuro (#1e3a8a), gris, blanco
-   - Acentos verdes para CTAs
-   - Tipografía system fonts
-   - Hover effects y transiciones
+### Fecha: 12 Feb 2025 - Versión HTML Estática ✨ NUEVO
+3. **Sitio Web Estático Completo** (/app/github-pages/):
+   - Conversión completa a HTML/CSS/JS vanilla
+   - Mismas funcionalidades que versión React
+   - **Sin dependencias** de frameworks
+   - **3 archivos principales**: index.html, style.css, script.js
+   - **Documentación completa**:
+     - README.md con instrucciones GitHub Pages
+     - WORDPRESS-GUIDE.md con migración paso a paso
+     - .gitignore configurado
+   
+4. **Características Técnicas**:
+   - Responsive design completo
+   - Animaciones fade-in con Intersection Observer
+   - Menú móvil hamburguesa funcional
+   - Scroll suave a secciones
+   - Header con efecto scroll
+   - WhatsApp button flotante
+   - Google Maps responsive
+   - SEO: meta tags, Open Graph, estructura semántica
 
 ## Estado Actual: GOOGLE FORMS INTEGRATION
 ✅ **Importante**: Todos los botones de contacto/presupuesto redirigen al Google Form externo:
