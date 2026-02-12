@@ -117,11 +117,11 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
 
 ## Tareas Inmediatas (Next Steps)
 1. ✅ Validar diseño frontend con cliente
-2. ⏳ Implementar backend (API + DB)
-3. ⏳ Integrar formularios con backend
-4. ⏳ Testing E2E completo
-5. ⏳ Optimizar SEO
-6. ⏳ Preparar para producción
+2. ✅ Integrar Google Forms para contactos
+3. ⏳ Optimizar SEO (sitemap.xml, robots.txt, meta tags completos)
+4. ⏳ Añadir Google Analytics
+5. ⏳ Optimizar imágenes para performance
+6. ⏳ Testing en diferentes navegadores/dispositivos
 
 ## Notas Técnicas
 - Hot reload activo en frontend
