@@ -17,13 +17,29 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
 
 ## Arquitectura Implementada
 
-### Frontend (React)
+### Frontend (React) - PRODUCCIÓN
 - **Framework**: React 19 con React Router
 - **UI Library**: Shadcn/UI + Tailwind CSS
 - **Componentes**: 
   - /pages/Home.jsx (página principal completa)
   - Componentes shadcn: Button, Card
   - Iconos: lucide-react
+- **Estado**: Desplegado y funcional
+
+### Frontend (HTML Estático) - GITHUB PAGES / WORDPRESS ✨ NUEVO
+- **Ubicación**: /app/github-pages/
+- **Archivos**:
+  - index.html (619 líneas - página completa)
+  - style.css (920 líneas - todos los estilos)
+  - script.js (104 líneas - interactividad)
+  - README.md (250 líneas - documentación completa)
+  - WORDPRESS-GUIDE.md (guía de migración paso a paso)
+- **Características**:
+  - 100% HTML/CSS/JS vanilla (sin dependencias)
+  - Listo para GitHub Pages (deploy inmediato)
+  - Fácil migración a WordPress (copiar/pegar)
+  - Responsive, SEO optimizado, animaciones
+- **Estado**: ✅ Completo y listo para deploy
 
 ### Backend (FastAPI)
 - **Estado**: Por implementar
