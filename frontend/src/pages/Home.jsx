@@ -299,11 +299,12 @@ const Home = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
-                  onClick={() => scrollToSection('contacto')}
+                  onClick={openContactForm}
                   className="bg-blue-900 hover:bg-blue-800 text-white"
                   size="lg"
                 >
                   Contactar Ahora
+                  <ExternalLink className="ml-2 h-5 w-5" />
                 </Button>
                 <Button 
                   onClick={() => scrollToSection('maquinaria')}
