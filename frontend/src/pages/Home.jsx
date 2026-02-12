@@ -125,11 +125,11 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                onClick={() => scrollToSection('presupuesto')}
+                onClick={openContactForm}
                 className="bg-green-500 hover:bg-green-600 text-white text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               >
                 Solicitar Presupuesto Gratis
-                <ChevronRight className="ml-2 h-5 w-5" />
+                <ExternalLink className="ml-2 h-5 w-5" />
               </Button>
               <Button 
                 size="lg" 
