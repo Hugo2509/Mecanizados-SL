@@ -145,10 +145,12 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
 ## Tareas Inmediatas (Next Steps)
 1. ✅ Validar diseño frontend con cliente
 2. ✅ Integrar Google Forms para contactos
-3. ⏳ Optimizar SEO (sitemap.xml, robots.txt, meta tags completos)
-4. ⏳ Añadir Google Analytics
-5. ⏳ Optimizar imágenes para performance
-6. ⏳ Testing en diferentes navegadores/dispositivos
+3. ✅ Crear versión HTML estática para GitHub Pages
+4. ✅ Documentar migración a WordPress
+5. ⏳ **SIGUIENTE: Deploy en GitHub Pages para prueba**
+6. ⏳ Migración a WordPress (después de validar GitHub Pages)
+7. ⏳ Optimizar SEO (sitemap.xml, robots.txt, meta tags avanzados)
+8. ⏳ Añadir Google Analytics
 
 ## Notas Técnicas
 - Hot reload activo en frontend
