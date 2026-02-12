@@ -93,8 +93,8 @@ const Home = () => {
                 <button onClick={() => scrollToSection('contacto')} className="text-left text-gray-700 hover:text-blue-900 font-medium">
                   Contacto
                 </button>
-                <Button onClick={() => scrollToSection('presupuesto')} className="bg-blue-900 hover:bg-blue-800 text-white w-full">
-                  Presupuesto Gratis
+                <Button onClick={openContactForm} className="bg-blue-900 hover:bg-blue-800 text-white w-full">
+                  Contactar
                 </Button>
               </div>
             </div>
