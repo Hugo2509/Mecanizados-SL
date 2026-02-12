@@ -1,0 +1,130 @@
+╔══════════════════════════════════════════════════════════════╗
+║     INSTRUCCIONES RÁPIDAS - DEPLOY GITHUB PAGES              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📁 ARCHIVOS LISTOS EN: /app/github-pages/
+
+Contiene:
+✅ index.html (619 líneas)
+✅ style.css (920 líneas)  
+✅ script.js (104 líneas)
+✅ README.md (instrucciones detalladas)
+✅ WORDPRESS-GUIDE.md (migración WordPress)
+✅ .gitignore
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 OPCIÓN 1: DEPLOY EN GITHUB PAGES (5 MINUTOS)
+
+1. Crea un repositorio en GitHub:
+   Nombre: mecanizados-calero (o el que prefieras)
+
+2. Sube los archivos:
+   cd /app/github-pages
+   git init
+   git add .
+   git commit -m "Initial commit: Mecanizados Calero"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/mecanizados-calero.git
+   git push -u origin main
+
+3. Activa GitHub Pages:
+   - Ve a Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: main / (root)
+   - Save
+   
+4. ¡Listo! URL: https://TU_USUARIO.github.io/mecanizados-calero/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 OPCIÓN 2: MIGRACIÓN A WORDPRESS (15 MINUTOS)
+
+Ver archivo: WORDPRESS-GUIDE.md
+Incluye paso a paso con capturas y solución de problemas.
+
+Resumen rápido:
+1. Crea página en WordPress
+2. Copia HTML del body de index.html
+3. Añade CSS en Personalizar → CSS adicional
+4. Añade JS con plugin "Simple Custom CSS and JS"
+5. Establece como página de inicio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 CHECKLIST PRE-DEPLOY
+
+Antes de hacer público el sitio:
+
+□ Verifica que el Google Form funcione
+  URL actual: https://docs.google.com/forms/.../viewform
+  
+□ Verifica números de teléfono:
+  - +34 935 74 15 50
+  - +34 935 74 31 57
+  
+□ Verifica emails:
+  - info@mecanizadoscalero.com
+  - mecanizadoscalero@gmail.com
+  
+□ Verifica WhatsApp:
+  - Número: 34935741550
+  
+□ Prueba en móvil y desktop
+  
+□ Verifica Google Maps (Santa Perpètua de Mogoda)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 PERSONALIZACIÓN RÁPIDA
+
+Cambiar colores:
+  En style.css busca:
+  - #1e3a8a (azul principal)
+  - #10b981 (verde CTAs)
+  - #374151 (gris)
+
+Cambiar textos:
+  Edita directamente en index.html
+
+Cambiar imágenes:
+  Reemplaza URLs de Unsplash/Pexels
+  O sube propias y usa rutas relativas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTACIÓN COMPLETA
+
+README.md          → Instrucciones técnicas completas
+WORDPRESS-GUIDE.md → Migración WordPress paso a paso
+index.html         → Código fuente HTML
+style.css          → Todos los estilos
+script.js          → Interactividad JavaScript
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 SOPORTE
+
+¿Problemas? Lee README.md sección "Solución de Problemas"
+Incluye soluciones para:
+- Imágenes que no cargan
+- Menú móvil que no funciona
+- Estilos que no se aplican
+- Scroll suave en Safari
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ CARACTERÍSTICAS DEL SITIO
+
+✓ 100% Responsive (móvil, tablet, desktop)
+✓ SEO Optimizado (meta tags, Open Graph)
+✓ Carga rápida (sin frameworks pesados)
+✓ Accesible (ARIA, navegación teclado)
+✓ Google Forms integrado
+✓ WhatsApp flotante
+✓ Google Maps
+✓ Animaciones suaves
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¡Todo listo para deploy!
