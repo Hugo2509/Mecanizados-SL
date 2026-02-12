@@ -508,22 +508,33 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Quote Section */}
+      {/* CTA Section */}
       <section id="presupuesto" className="py-20 bg-blue-900 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Solicite su Presupuesto
-              </h2>
-              <p className="text-xl text-gray-200">
-                Sin compromiso. Respuesta en menos de 24 horas.
-              </p>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              ¿Necesita un Presupuesto?
+            </h2>
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed">
+              Rellene nuestro formulario y nos pondremos en contacto con usted en menos de 24 horas. 
+              Sin compromiso. Asesoramiento técnico profesional incluido.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button 
+                size="lg" 
+                onClick={openContactForm}
+                className="bg-green-500 hover:bg-green-600 text-white text-xl px-12 py-8 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
+              >
+                Solicitar Presupuesto Gratis
+                <ExternalLink className="ml-3 h-6 w-6" />
+              </Button>
             </div>
-
-            <Card className="p-8 md:p-12">
-              <QuoteForm />
-            </Card>
+            <p className="text-sm text-gray-300 mt-6">
+              📞 También puede llamarnos directamente: 
+              <a href="tel:+34935741550" className="font-bold hover:text-white transition-colors ml-2">
+                +34 935 74 15 50
+              </a>
+            </p>
           </div>
         </div>
       </section>
