@@ -1,0 +1,194 @@
+╔══════════════════════════════════════════════════════════════╗
+║   ALTERNATIVAS A GITHUB PAGES - MÁS FÁCILES                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🥇 OPCIÓN 1: NETLIFY (LA MÁS FÁCIL - RECOMENDADA)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ GRATIS para siempre
+✅ Sin Git, sin comandos
+✅ Arrastra carpeta y listo
+✅ SSL automático (HTTPS)
+✅ Dominio personalizado gratis
+✅ Super rápido (CDN global)
+
+PASOS (2 MINUTOS):
+
+1. Ve a: https://app.netlify.com/signup
+   - Regístrate con email (o Google/GitHub)
+
+2. Una vez dentro:
+   - Click en "Add new site" → "Deploy manually"
+
+3. ARRASTRA la carpeta /app/github-pages/ completa
+   (O selecciona los 4 archivos: index.html, style.css, script.js, README.md)
+
+4. ⏱️  Espera 30 segundos...
+
+5. 🎉 ¡LISTO! Te da una URL tipo:
+   https://random-name-123456.netlify.app
+
+6. (OPCIONAL) Personaliza el nombre:
+   - Site settings → Change site name
+   - Ejemplo: mecanizados-calero.netlify.app
+
+7. (OPCIONAL) Dominio propio:
+   - Domain settings → Add custom domain
+   - www.mecanizadoscalero.com
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🥈 OPCIÓN 2: VERCEL (TAMBIÉN MUY FÁCIL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ GRATIS
+✅ Muy rápido
+✅ Interfaz moderna
+✅ SSL automático
+
+PASOS (2 MINUTOS):
+
+1. Ve a: https://vercel.com/signup
+   - Regístrate con email
+
+2. Click en "Add New..." → "Project"
+
+3. Scroll down → "Browse" (no uses Git)
+
+4. Selecciona la carpeta /app/github-pages/
+
+5. Click "Deploy"
+
+6. 🎉 URL: https://mecanizados-calero.vercel.app
+
+Ventaja: URL más limpia desde el inicio
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🥉 OPCIÓN 3: SURGE.SH (ULTRA RÁPIDA, LÍNEA DE COMANDOS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ GRATIS
+✅ MÁS RÁPIDA (1 comando)
+✅ Perfecto para pruebas
+
+PASOS (1 MINUTO):
+
+1. Instala Surge (solo primera vez):
+   npm install -g surge
+
+2. Deploy:
+   cd /app/github-pages
+   surge
+
+3. Te pedirá:
+   - Email (primera vez)
+   - Password (primera vez)
+   - Domain: mecanizados-calero.surge.sh
+
+4. 🎉 ¡LISTO! URL: https://mecanizados-calero.surge.sh
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+📊 COMPARACIÓN RÁPIDA
+
+┌─────────────┬──────────┬──────────┬────────────┬────────────┐
+│ Servicio    │ Facilidad│ Velocidad│ Dominio    │ Recomendado│
+├─────────────┼──────────┼──────────┼────────────┼────────────┤
+│ Netlify     │ ⭐⭐⭐⭐⭐│ Muy Alta │ Incluido   │ ✅ SÍ      │
+│ Vercel      │ ⭐⭐⭐⭐⭐│ Muy Alta │ Incluido   │ ✅ SÍ      │
+│ Surge       │ ⭐⭐⭐⭐  │ Alta     │ Incluido   │ Para prueba│
+│ GitHub Pages│ ⭐⭐⭐    │ Alta     │ Incluido   │ Más trabajo│
+└─────────────┴──────────┴──────────┴────────────┴────────────┘
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🎯 MI RECOMENDACIÓN: NETLIFY
+
+Por qué:
+✓ Más fácil (arrastra carpeta)
+✓ No necesitas Git ni comandos
+✓ SSL automático
+✓ Puedes actualizar fácilmente (arrastra de nuevo)
+✓ Analytics incluido
+✓ Formularios nativos (si quieres reemplazar Google Forms)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🔄 ACTUALIZAR EL SITIO
+
+NETLIFY:
+  - Arrastra la carpeta de nuevo sobre el sitio
+  - O usa Netlify Drop: https://app.netlify.com/drop
+
+VERCEL:
+  - Sube nuevos archivos desde el dashboard
+  - O usa CLI: vercel --prod
+
+SURGE:
+  - cd /app/github-pages
+  - surge
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+💡 OTRAS ALTERNATIVAS (si las anteriores no te sirven)
+
+• Cloudflare Pages (gratis, muy rápido)
+  https://pages.cloudflare.com/
+
+• Render (gratis, fácil)
+  https://render.com/
+
+• Firebase Hosting (Google, gratis)
+  https://firebase.google.com/docs/hosting
+
+• GitLab Pages (similar a GitHub)
+  https://docs.gitlab.com/ee/user/project/pages/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🆘 ¿CUÁL ELEGIR?
+
+¿Quieres lo más fácil?
+  → NETLIFY (arrastra carpeta)
+
+¿Quieres la URL más limpia?
+  → VERCEL
+
+¿Solo quieres probar rápido?
+  → SURGE (un comando)
+
+¿Quieres máximo control?
+  → GitHub Pages
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+📞 SIGUIENTE PASO
+
+Dime cuál prefieres y te hago un tutorial paso a paso
+con capturas de pantalla si es necesario.
+
+O simplemente prueba Netlify (es la más fácil):
+1. https://app.netlify.com/signup
+2. Arrastra /app/github-pages/
+3. ¡Listo!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
