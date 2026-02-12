@@ -79,21 +79,9 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
 ## Backlog Priorizado
 
 ### P0 - Crítico (Siguiente fase)
-1. **Backend API**:
-   - Endpoint POST /api/contact
-   - Endpoint POST /api/quote
-   - Envío de emails con notificaciones
-   - Validación de datos
-
-2. **Integración Frontend-Backend**:
-   - Conectar formularios con API real
-   - Manejo de errores y loading states
-   - Mensajes de confirmación con toast
-
-3. **Base de Datos**:
-   - Schema para contacts
-   - Schema para quotes
-   - Timestamps y validaciones
+1. ~~Backend API~~ - NO NECESARIO (se usa Google Forms)
+2. ~~Integración Frontend-Backend~~ - NO NECESARIO
+3. ~~Base de Datos~~ - NO NECESARIO
 
 ### P1 - Alta Prioridad
 1. SEO avanzado:
