@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, ChevronRight, Award, Users, Clock, Factory, Menu, X } from 'lucide-react';
+import { Phone, Mail, MapPin, ChevronRight, Award, Users, Clock, Factory, Menu, X, ExternalLink } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
+
+const CONTACT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeMVO8-gCPBXxIIwFtvDufjWvD2hJqTTjT5VKmzgU4wi0kIVQ/viewform?usp=dialog";
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,6 +17,10 @@ const Home = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const openContactForm = () => {
+    window.open(CONTACT_FORM_URL, '_blank', 'noopener,noreferrer');
+  };
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
