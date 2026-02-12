@@ -551,84 +551,71 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-blue-900 mb-6">
-                Información de Contacto
-              </h3>
-
-              <div className="space-y-6 mb-8">
-                <div className="flex items-start">
-                  <div className="bg-blue-900 p-3 rounded-lg mr-4">
-                    <MapPin className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Dirección</h4>
-                    <p className="text-gray-600">
-                      Polígono Industrial La Florida<br />
-                      Calle Solsona s/n, Nave 7<br />
-                      08130 Santa Perpètua de Mogoda<br />
-                      Barcelona, España
-                    </p>
-                  </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <Card className="p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-blue-900 p-4 rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <MapPin className="h-10 w-10 text-white" />
                 </div>
+                <h3 className="font-semibold text-gray-900 mb-2 text-lg">Dirección</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Polígono Industrial La Florida<br />
+                  Calle Solsona s/n, Nave 7<br />
+                  08130 Santa Perpètua de Mogoda<br />
+                  Barcelona, España
+                </p>
+              </Card>
 
-                <div className="flex items-start">
-                  <div className="bg-blue-900 p-3 rounded-lg mr-4">
-                    <Phone className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Teléfono</h4>
-                    <p className="text-gray-600">
-                      <a href="tel:+34935741550" className="hover:text-blue-900 transition-colors">
-                        +34 935 74 15 50
-                      </a>
-                      <br />
-                      <a href="tel:+34935743157" className="hover:text-blue-900 transition-colors">
-                        +34 935 74 31 57
-                      </a>
-                    </p>
-                  </div>
+              <Card className="p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-blue-900 p-4 rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <Phone className="h-10 w-10 text-white" />
                 </div>
+                <h3 className="font-semibold text-gray-900 mb-2 text-lg">Teléfono</h3>
+                <p className="text-gray-600">
+                  <a href="tel:+34935741550" className="hover:text-blue-900 transition-colors font-medium block">
+                    +34 935 74 15 50
+                  </a>
+                  <a href="tel:+34935743157" className="hover:text-blue-900 transition-colors font-medium block">
+                    +34 935 74 31 57
+                  </a>
+                </p>
+                <p className="text-xs text-gray-500 mt-3">
+                  Lunes - Viernes: 8:00 - 18:00<br />
+                  Urgencias 24h disponibles
+                </p>
+              </Card>
 
-                <div className="flex items-start">
-                  <div className="bg-blue-900 p-3 rounded-lg mr-4">
-                    <Mail className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">
-                      <a href="mailto:info@mecanizadoscalero.com" className="hover:text-blue-900 transition-colors">
-                        info@mecanizadoscalero.com
-                      </a>
-                      <br />
-                      <a href="mailto:mecanizadoscalero@gmail.com" className="hover:text-blue-900 transition-colors">
-                        mecanizadoscalero@gmail.com
-                      </a>
-                    </p>
-                  </div>
+              <Card className="p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-blue-900 p-4 rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <Mail className="h-10 w-10 text-white" />
                 </div>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-4">Horario de Atención</h4>
-                <div className="space-y-2 text-gray-600">
-                  <p><strong>Lunes - Viernes:</strong> 8:00 - 18:00</p>
-                  <p><strong>Urgencias 24h:</strong> Disponible</p>
-                </div>
-              </div>
+                <h3 className="font-semibold text-gray-900 mb-2 text-lg">Email</h3>
+                <p className="text-gray-600">
+                  <a href="mailto:info@mecanizadoscalero.com" className="hover:text-blue-900 transition-colors font-medium block">
+                    info@mecanizadoscalero.com
+                  </a>
+                  <a href="mailto:mecanizadoscalero@gmail.com" className="hover:text-blue-900 transition-colors font-medium block">
+                    mecanizadoscalero@gmail.com
+                  </a>
+                </p>
+                <p className="text-xs text-gray-500 mt-3">
+                  Respuesta en menos de 24h
+                </p>
+              </Card>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-blue-900 mb-6">
-                Envíenos un Mensaje
-              </h3>
-              <ContactForm />
+            <div className="text-center mb-12">
+              <Button 
+                size="lg" 
+                onClick={openContactForm}
+                className="bg-blue-900 hover:bg-blue-800 text-white text-lg px-12 py-6"
+              >
+                Enviar Consulta
+                <ExternalLink className="ml-2 h-5 w-5" />
+              </Button>
             </div>
-          </div>
 
-          {/* Google Maps */}
-          <div className="mt-16">
+            {/* Google Maps */}
             <div className="rounded-2xl overflow-hidden shadow-xl h-96">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.6!2d2.1842!3d41.5344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDMyJzAzLjgiTiAywrAxMScwMy4xIkU!5e0!3m2!1ses!2ses!4v1234567890"
