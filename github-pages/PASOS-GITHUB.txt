@@ -1,0 +1,173 @@
+╔══════════════════════════════════════════════════════════════╗
+║   INSTRUCCIONES PASO A PASO - GITHUB PAGES                   ║
+║   (Sigue estos pasos exactamente)                            ║
+╚══════════════════════════════════════════════════════════════╝
+
+PASO 1: CREAR REPOSITORIO EN GITHUB (2 minutos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: https://github.com/new
+
+2. Completa el formulario:
+   ┌─────────────────────────────────────────────────────────┐
+   │ Repository name: mecanizados-calero                     │
+   │                                                          │
+   │ Description: Sitio web Mecanizados Calero S.L.         │
+   │                                                          │
+   │ ○ Public (recomendado)                                  │
+   │ ○ Private (también funciona)                            │
+   │                                                          │
+   │ ☐ Add a README file (dejar SIN marcar)                 │
+   │ ☐ Add .gitignore (dejar SIN marcar)                    │
+   │ ☐ Choose a license (dejar SIN marcar)                  │
+   └─────────────────────────────────────────────────────────┘
+
+3. Click en "Create repository"
+
+4. ¡NO CIERRES la página! Necesitarás la URL del repo
+
+
+PASO 2: CONFIGURAR SCRIPT (30 segundos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Edita el archivo: /app/github-pages/deploy-to-github.sh
+
+2. Cambia estas líneas (líneas 10-13):
+   
+   ANTES:
+   GITHUB_USERNAME="TU_USUARIO"
+   GITHUB_EMAIL="tu-email@gmail.com"
+   GITHUB_NAME="Tu Nombre"
+   
+   DESPUÉS (ejemplo):
+   GITHUB_USERNAME="juanperez"
+   GITHUB_EMAIL="juan@gmail.com"
+   GITHUB_NAME="Juan Perez"
+
+
+PASO 3: CREAR TOKEN DE GITHUB (1 minuto)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: https://github.com/settings/tokens
+
+2. Click en "Generate new token" → "Generate new token (classic)"
+
+3. Completa:
+   ┌─────────────────────────────────────────────────────────┐
+   │ Note: Mecanizados Calero Deploy                        │
+   │                                                          │
+   │ Expiration: 30 days (o lo que prefieras)               │
+   │                                                          │
+   │ Permisos (marcar):                                      │
+   │ ☑ repo (todos los sub-permisos)                        │
+   └─────────────────────────────────────────────────────────┘
+
+4. Click en "Generate token"
+
+5. ⚠️  COPIA EL TOKEN (empieza con ghp_...)
+   ⚠️  Solo se muestra UNA VEZ
+   ⚠️  Guárdalo en un lugar seguro
+
+
+PASO 4: EJECUTAR SCRIPT (1 minuto)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En tu terminal, ejecuta:
+   
+   cd /app/github-pages
+   ./deploy-to-github.sh
+
+2. El script te mostrará un resumen de configuración
+
+3. Presiona ENTER para continuar
+
+4. Cuando te pida credenciales:
+   Username: [tu usuario de GitHub]
+   Password: [PEGA TU TOKEN aquí, NO tu contraseña]
+
+5. ¡Los archivos se subirán automáticamente!
+
+
+PASO 5: ACTIVAR GITHUB PAGES (1 minuto)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a tu repositorio en GitHub:
+   https://github.com/TU_USUARIO/mecanizados-calero
+
+2. Click en "Settings" (⚙️)
+
+3. En el menú lateral izquierdo, click en "Pages"
+
+4. En la sección "Build and deployment":
+   ┌─────────────────────────────────────────────────────────┐
+   │ Source: Deploy from a branch                            │
+   │                                                          │
+   │ Branch: [main ▼]  / (root) ▼  [Save]                   │
+   └─────────────────────────────────────────────────────────┘
+
+5. Click en "Save"
+
+6. ⏱️  Espera 1-2 minutos...
+
+7. Refresca la página
+
+8. ¡Verás un mensaje verde con tu URL!
+   🎉 Your site is live at https://TU_USUARIO.github.io/mecanizados-calero/
+
+
+PASO 6: VERIFICAR (30 segundos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre la URL en tu navegador
+
+2. Verifica que todo carga correctamente:
+   ☑ Imágenes
+   ☑ Estilos (colores azul/verde)
+   ☑ Menú móvil (prueba en modo responsive)
+   ☑ Scroll suave
+   ☑ Google Maps
+   ☑ Botón WhatsApp flotante
+   ☑ Enlaces a Google Forms
+
+3. Prueba en móvil también
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎊 ¡FELICIDADES! TU SITIO ESTÁ EN LÍNEA
+
+Tu sitio web: https://TU_USUARIO.github.io/mecanizados-calero/
+
+Próximos pasos opcionales:
+□ Configurar dominio personalizado (www.mecanizadoscalero.com)
+□ Añadir Google Analytics
+□ Configurar sitemap.xml
+□ Migrar a WordPress (cuando estés listo)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🆘 SOLUCIÓN DE PROBLEMAS
+
+Error: "Repository not found"
+→ Verifica que el nombre del repo sea exacto (mecanizados-calero)
+→ Verifica que hayas creado el repositorio en GitHub
+
+Error: "Authentication failed"
+→ Usa tu TOKEN (ghp_...) como contraseña, NO tu contraseña normal
+→ Verifica que el token tenga permisos "repo"
+
+El sitio no se ve bien
+→ Espera 2-3 minutos para que GitHub construya el sitio
+→ Limpia caché del navegador (Ctrl+F5)
+→ Verifica que los archivos se hayan subido correctamente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+📞 NECESITAS AYUDA?
+
+Revisa: README.md para más detalles técnicos
+O envíame el error específico que estés viendo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
