@@ -69,11 +69,12 @@ Crear un sitio web profesional para una empresa de mecanizados CNC en Barcelona 
    - Tipografía system fonts
    - Hover effects y transiciones
 
-## Estado Actual: MOCK DATA
-⚠️ **Importante**: Los formularios actualmente usan datos MOCK:
-- Formulario de contacto: console.log + alert
-- Formulario de presupuesto: console.log + alert
-- NO hay conexión con backend aún
+## Estado Actual: GOOGLE FORMS INTEGRATION
+✅ **Importante**: Todos los botones de contacto/presupuesto redirigen al Google Form externo:
+- URL: https://docs.google.com/forms/d/e/1FAIpQLSeMVO8-gCPBXxIIwFtvDufjWvD2hJqTTjT5VKmzgU4wi0kIVQ/viewform?usp=dialog
+- Botones integrados: Hero CTA, Menú header, Sección "La Empresa", Sección CTA/Presupuesto, Sección Contacto
+- NO hay formularios internos (simplificado según requerimiento del cliente)
+- Sección de contacto solo muestra información (teléfono, email, mapa)
 
 ## Backlog Priorizado
 
